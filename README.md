@@ -6,7 +6,9 @@ How to use:
 1. clone the repository on your machine
 2. install the requirements
 3. run the whole script
+4. create an account on solebox in your standard browser and add your shipping/billing addrress in the account. When running the script you must contemporary be logged in on the solebox website in your browser. I recommend, around 5 minutes before the "release", log in on website and start the script.
 
+Edit all the code parts marked with comments by inserting your data.
 Enter the item link in productlink. To get the aid value, inspect a size and you will see a number like this: a#NUMBER.selectsize in the right corner. The Number is your aid value you can enter in the script's source code.
 
 The script doesn't support Solebox's Queue release methods obviously. I might publish that later.
@@ -19,6 +21,8 @@ Obviously the script is work in progress. I am not publishing my top Solebox Scr
 TODOs:
 - Queue bypass
 - Restock mode and restock monitor
+- Stock checker
+- Scheduled tasks (start at specific time)
 - Multi threaded script (tasks)
 - Auto size selection (no more AID value needed)
 - Proxy support
