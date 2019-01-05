@@ -1,6 +1,8 @@
 # solebox-atc-tool
 A short Python script to auto add to cart and checkout selected item in few seconds.
 
+MAKE SURE TO GET LATEST UPDATE; SMALL CHANGE THAT IS QUITE IMPRTANT BECAUSE CHECKOUTLINK WAS PATCHED, IF IT STILL DOESNT WORK FILE AN ISSUE AND I WILL FIX
+
 How to use:
 
 1. clone the repository on your machine
