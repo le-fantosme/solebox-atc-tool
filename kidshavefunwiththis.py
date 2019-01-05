@@ -9,7 +9,7 @@ import time
 print("A 5 minutes trash by pxtrck")
 s=requests.session()
 header={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"}
-solename="Patrick"	#WRITE THERE YOUR NAME; must be the one you used to register on solebox
+solename=""	#WRITE THERE YOUR NAME; must be the one you used to register on solebox
 productlink="https://www.solebox.com/Footwear/Running/Moon-Racer-variant.html"	#the link of your product
 aid="31764" 	#the aid value, read README.md to check how to find it out
 def get_prod():
@@ -62,8 +62,8 @@ def login_checkout():
     "actcontrol": "account",
     "fnc": "login_noredirect",
     "cl": "account",
-    "lgn_usr": "patrickforzainter@hotmail.com",	#YOUR SOLEBOX EMAIL, enter it there 
-    "lgn_pwd": "patrick2001"}	#YOUR SOLEBOX PASSWORD 
+    "lgn_usr": "",	#YOUR SOLEBOX EMAIL, enter it there 
+    "lgn_pwd": ""}	#YOUR SOLEBOX PASSWORD 
     login=s.post("https://www.solebox.com/index.php?", headers=header, data=ldt)
     if solename in login.text:
         print("Logged in")
